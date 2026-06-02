@@ -2,6 +2,9 @@
 
 A public, open repository of geometry files for ionic liquid (IL) ions and ion pairs, suitable for training or fine-tuning machine learning interatomic potentials (MLIPs), force fields, and semi-empirical models. All geometries are provided in the extended XYZ format for immediate interoperability with common computational chemistry and materials tools.
 
+> [!CAUTION]
+> The structure of the repositoty is still subject to change.
+
 ## Contents
 
 - **Single ions**: Equilibrium geometries for common IL anions and cations (DFT optimized).
