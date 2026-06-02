@@ -22,6 +22,13 @@ All entries include atom types, coordinates, forces, charges, dipole moment, HOM
 - **Comment**: energy (also free_energy), dipole, homo_lumo
 - **Fields**: atom_name, x, y, z (Å), fx, fy, fz (eV/Å), charge
 
+## Units
+
+- Coordinates are in Ångströms.
+- Forces are in eV per Ångströms.
+- Energies and HOMO-LUMO gaps are in eV.
+- Atom names correspond to standard element symbols and force-field types used in the calculations.
+
 ### Directory Layout
 ```
 Anions/<AnionName>/<AnionName>.xyz       # Single optimized anion geometry
@@ -53,14 +60,6 @@ Geometry files are provided "as-is" from geometry optimizations. Some entries ma
 from ase.io import read
 geom = read("Pairs/BuMeIM/BF4/BuMeIM_BF4_dft_1.xyz")
 ```
-
-## Notes
-
-- Coordinates are in Ångströms.
-- Forces are in eV per Ångströms.
-- Energies and HOMO-LUMO gaps are in eV.
-- Atom names correspond to standard element symbols and force-field types used in the calculations.
-- The repository is licensed under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). See [LICENSE](LICENSE).
 
 ---
 
