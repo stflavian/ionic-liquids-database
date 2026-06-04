@@ -61,6 +61,24 @@ from ase.io import read
 geom = read("Pairs/BuMeIM/BF4/BuMeIM_BF4_dft_1.xyz")
 ```
 
+## Citation
+
+If you use this database in your research, consider citing the Zenodo entry: 
+
+``` tex
+@software{flavian_stavarache_2026_20539350,
+  author       = {Flavian Stavarache},
+  title        = {stflavian/ionic-liquids-database: Ionic Liquids
+                   Database v1.0
+                  },
+  month        = jun,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.20539350},
+  url          = {https://doi.org/10.5281/zenodo.20539350},
+}
+```
 ---
 
 **License**: CC0 1.0 Universal (see [LICENSE](LICENSE))
