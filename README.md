@@ -65,7 +65,7 @@ geom = read("Pairs/BuMeIM/BF4/BuMeIM_BF4_dft_1.xyz")
 
 If you use this database in your research, consider citing the Zenodo entry: 
 
-``` tex
+``` bibtex
 @software{flavian_stavarache_2026_20539350,
   author       = {Flavian Stavarache},
   title        = {stflavian/ionic-liquids-database: Ionic Liquids
