@@ -1,5 +1,7 @@
 # Ionic Liquids Geometry Database
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20539350.svg)](https://doi.org/10.5281/zenodo.20539350)
+
 A public, open repository of geometry files for ionic liquid (IL) ions and ion pairs, suitable for training or fine-tuning machine learning interatomic potentials (MLIPs), force fields, and semi-empirical models. All geometries are provided in the extended XYZ format for immediate interoperability with common computational chemistry and materials tools.
 
 > [!CAUTION]
